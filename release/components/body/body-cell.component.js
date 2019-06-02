@@ -406,7 +406,7 @@ var DataTableBodyCellComponent = /** @class */ (function () {
         __metadata("design:type", core_1.EventEmitter)
     ], DataTableBodyCellComponent.prototype, "treeAction", void 0);
     __decorate([
-        core_1.ViewChild('cellTemplate', { read: core_1.ViewContainerRef, static: true }),
+        core_1.ViewChild('cellTemplate', { read: core_1.ViewContainerRef, static: false }),
         __metadata("design:type", core_1.ViewContainerRef)
     ], DataTableBodyCellComponent.prototype, "cellTemplate", void 0);
     __decorate([

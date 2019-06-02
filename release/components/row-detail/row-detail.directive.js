@@ -58,7 +58,7 @@ var DatatableRowDetailDirective = /** @class */ (function () {
         core_1.Input(),
         core_1.ContentChild(row_detail_template_directive_1.DatatableRowDetailTemplateDirective, {
             read: core_1.TemplateRef,
-            static: true
+            static: false
         }),
         __metadata("design:type", core_1.TemplateRef)
     ], DatatableRowDetailDirective.prototype, "template", void 0);

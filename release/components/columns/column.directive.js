@@ -119,7 +119,7 @@ var DataTableColumnDirective = /** @class */ (function () {
         core_1.Input(),
         core_1.ContentChild(column_cell_directive_1.DataTableColumnCellDirective, {
             read: core_1.TemplateRef,
-            static: true
+            static: false
         }),
         __metadata("design:type", core_1.TemplateRef)
     ], DataTableColumnDirective.prototype, "cellTemplate", void 0);
@@ -127,7 +127,7 @@ var DataTableColumnDirective = /** @class */ (function () {
         core_1.Input(),
         core_1.ContentChild(column_header_directive_1.DataTableColumnHeaderDirective, {
             read: core_1.TemplateRef,
-            static: true
+            static: false
         }),
         __metadata("design:type", core_1.TemplateRef)
     ], DataTableColumnDirective.prototype, "headerTemplate", void 0);
@@ -135,7 +135,7 @@ var DataTableColumnDirective = /** @class */ (function () {
         core_1.Input(),
         core_1.ContentChild(tree_directive_1.DataTableColumnCellTreeToggle, {
             read: core_1.TemplateRef,
-            static: true
+            static: false
         }),
         __metadata("design:type", core_1.TemplateRef)
     ], DataTableColumnDirective.prototype, "treeToggleTemplate", void 0);
