@@ -19,7 +19,7 @@ export class DatatableRowDetailDirective {
   @Input()
   @ContentChild(DatatableRowDetailTemplateDirective, {
     read: TemplateRef,
-    static: true
+    static: false
   })
   template: TemplateRef<any>;
 

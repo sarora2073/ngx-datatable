@@ -18,7 +18,7 @@ export class DatatableGroupHeaderDirective {
   @Input()
   @ContentChild(DatatableGroupHeaderTemplateDirective, {
     read: TemplateRef,
-    static: true
+    static: false
   })
   template: TemplateRef<any>;
 
